@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+#more {display: none;}
+
+h1, h2, h3, h4, p {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+.row {
+       display: flex;
+       flex-wrap: wrap;
+}
+
+body {
+    display: block;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+}
+
+
+p {margin-left: 15px;
+    margin-right:15px;
+text-align: justify;}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(4, 5, 90);
+    overflow: auto;
+    float:none;
+  }
+
+  .linkbar {
+    width: 30%;
+    background-color: rgb(4, 5, 90);
+    overflow: auto;
+    float:none;
+    margin:auto;
+    margin-bottom:25px;
+  } 
+
+  .linkbar a {  
+    float: none;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    display:block;
+    width: 100%;}
+
+  .navbar a {
+    float: none;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+
+  .linkbar a:hover {
+    background-color: rgb(240, 132, 9);
+}
+
+  .navbar a:hover {
+    background-color: rgb(240, 132, 9);
+  }
+
+.linkbar::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.banner-img {
+    width:100%;;
+}
+
+.img {width:100%;}
+
+h1 {
+    position:absolute;
+    top: 150px;
+	font-weight: bold;
+    font-size: 300%;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px midnightblue;
+}
+
+h2 { 
+    position:absolute;
+    top: 200px;
+    left: 50px;
+	font-weight: bold;
+    font-size: 380%;
+    padding-left: 10px;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px midnightblue;
+
+}
+.cont{
+    font-size: 120%;
+    padding-left: 10px;
+}
+
+h4 {
+    color: rgb(13, 10, 153);
+	font-weight: bold;
+    font-size: 200%;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.content{
+	font-size:24px;
+}
+
+[class*="col-"] {
+	width:100%;
+    float: left;
+    padding: 15px;
+}
+

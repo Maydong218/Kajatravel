@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h4, p {
+	font-family: 'PT Serif', serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.float-r {
+	float: right;
+}
+
+p {
+	margin-left: 15px;
+    margin-right:15px;
+text-align: justify;
+font-size: 120%;
+}
+
+h1{
+	position:absolute;
+    top: 200px;
+	font-weight: bold;
+    font-size: 400%;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px midnightblue;
+}
+
+h2 { 
+    position:absolute;
+    top: 280px;
+    left: 50px;
+	font-weight: bold;
+    font-size: 500%;
+    padding-left: 10px;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px midnightblue;
+
+}
+
+.text-mar {
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.cont {
+    font-size: 120%;
+}
+    
+@media only screen and (max-width:992px) and (min-width: 768px) {
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}
+	float: left;}
